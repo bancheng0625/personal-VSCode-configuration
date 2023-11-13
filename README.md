@@ -2,7 +2,17 @@
 配了一下自己觉得比较舒服的设置
 
 **注意：** C/C++部分还未完全配置完，makefile和cmake的路径需要根据自己的电脑路径进行配置
+## 需要字体
+ Github Monaspace
+[字体详情](https://monaspace.githubnext.com)
 
+个人选用MonaspaceXenon
+
+## 需要安装的软件
+1. VSCode
+2. mingw64
+3. cmake
+4. cmake-format
 ## 需要安装的插件
 1. Monokai Pro
 2. vscode-icons
@@ -21,8 +31,6 @@
 15. Doxygen Documentation Generator
 16. Color Highlight
 17. Better Comments
-
-
 
 ## markdown部分配置
 使用`Markdown All in One`和`Markdown Preview Github Styling`插件
