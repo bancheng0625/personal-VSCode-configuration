@@ -1,0 +1,158 @@
+{
+    // 外观主题、图标、字体
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.fontFamily": "'Monaspace Xenon', monospace",
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+    "editor.fontSize": 18,
+    "editor.lineHeight": 1.6,
+
+    //自动保存
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    
+    "better-comments.tags": [
+        {
+            // 表示有未完成的代码
+            "tag": "TODO",
+            "color": "#FA973A",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            // 表示代码需要修正
+            "tag": "FIXME",
+            "color": "#FF0000",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            // 提示
+            "tag": "HINT",
+            "color": "#2FAF64",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            // 描述代码作用
+            "tag": "NOTE",
+            "color": "#00B7E4",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            // 表示之后可能会出现问题
+            "tag": "HACK",
+            "color": "#FA973A",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            // 表示这里有问题
+            "tag": "BUG",
+            "color": "#FF0000",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+
+    // error lens
+    "workbench.colorCustomizations": {
+        "errorLens.errorForeground": "#FF0000", // BUG FIXME
+        "errorLens.warningForeground": "#FA973A", // HACK TODO
+        "errorLens.infoBackground": "#00B7E4", // NOTE
+        "errorLens.hintForeground": "#2FAF64" // HINT
+    },
+
+    // code runner
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc $fileName -o bin\\$fileNameWithoutExt && cd bin && .\\$dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o bin\\$fileNameWithoutExt && cd bin && .\\$dir$fileNameWithoutExt"
+    },
+
+    // gitlens
+    "gitlens.defaultDateFormat": "YYYY-MM-DD hh:mm:ss",
+    "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+
+    // CPP Reference
+    "cppref.lang": "zh",
+    "cppref.searchEngine": "Google",
+
+    //Doxygen Documentatin Genertor
+    "doxdocgen.c.commentPrefix": "///",
+    "doxdocgen.c.firstLine": "///",
+    "doxdocgen.c.lastLine": "///",
+    "doxdocgen.c.triggerSequence": "///",
+
+    "doxdocgen.generic.authorName": "Bancheng0625",
+    "doxdocgen.generic.authorEmail": "sxtian0625@hotmail.com",
+
+    "doxdocgen.file.copyrightTag": [
+        "@copyright Copyright (c) {year} Bancheng0625"
+    ],
+
+    // C/C++
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
+    "C_Cpp.inlayHints.parameterNames.hideLeadingUnderscores": false,
+
+    "C_Cpp.inlayHints.referenceOperator.enabled": true,
+    "C_Cpp.inlayHints.referenceOperator.showSpace": true,
+
+    "C_Cpp.clang_format_path": "C:/Users/sxtia/.vscode/extensions/ms-vscode.cpptools-1.17.5-win32-x64/LLVM/bin/clang-format",
+    "C_Cpp.clang_format_style": "Google",
+
+    // makefile
+    "makefile.makePath": "/usr/bin/make",
+    "makefile.configureOnOpen": false,
+    "makefile.configureOnEdit": false,
+
+    // cmake tools
+    "cmake.cmakePath": "/usr/bin/cmake",
+    "cmake.buildDirectory": "${workspaceFolder}/out/${buildType}",
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    "cmake.generator": "Unix Makefiles",
+    "editor.fontVariations": false,
+    "editor.codeActionsOnSave": {
+    
+    },
+
+    //markdown settings
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.renderWhitespace": "all",
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "on",
+            "strings": "on"
+        },
+        "editor.acceptSuggestionOnEnter": "on",
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    }
+}
