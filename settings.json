@@ -128,7 +128,7 @@
     "C_Cpp.clang_format_style": "Google",
 
     // makefile
-    "makefile.makePath": "C:/mingw64/bin/mingw32-make",
+    "makefile.makePath": "C:/mingw64/bin/make",
     "makefile.configureOnOpen": false,
     "makefile.configureOnEdit": false,
 
