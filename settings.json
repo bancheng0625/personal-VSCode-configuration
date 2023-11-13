@@ -128,12 +128,12 @@
     "C_Cpp.clang_format_style": "Google",
 
     // makefile
-    "makefile.makePath": "/usr/bin/make",
+    "makefile.makePath": "C:/mingw64/bin/mingw32-make",
     "makefile.configureOnOpen": false,
     "makefile.configureOnEdit": false,
 
     // cmake tools
-    "cmake.cmakePath": "/usr/bin/cmake",
+    "cmake.cmakePath": "C:/Program Files/CMake/bin/cmake",
     "cmake.buildDirectory": "${workspaceFolder}/out/${buildType}",
     "cmake.configureOnOpen": false,
     "cmake.configureOnEdit": false,
