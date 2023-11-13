@@ -5,7 +5,7 @@
 
 **注意：** C/C++部分还未完全配置完，makefile和cmake的路径需要根据自己的电脑路径进行配置
 
-## markdown配置
+## markdown部分配置
 使用`Markdown All In One`和`Markdown Preview Github Styling`插件
 ### 操作方法
 在vscode中，`Ctrl+Shift+P`输入`user snippets`,接着输入`markdown`,打开`markdown.json`文件后，将内容进行替换
