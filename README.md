@@ -1,6 +1,8 @@
 # personal-VSCode-configuration
 自己写代码时对VSCode的配置
 
+## 需要安装的插件
+
 自己在网上找视频跟着做，配了一下自己觉得比较舒服的设置
 
 **注意：** C/C++部分还未完全配置完，makefile和cmake的路径需要根据自己的电脑路径进行配置
