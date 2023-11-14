@@ -6,7 +6,7 @@
  Github Monaspace
 [字体详情](https://monaspace.githubnext.com)
 
-个人选用MonaspaceXenon
+个人选用Monaspace Xenon
 
 ## 需要安装的软件
 1. VSCode
