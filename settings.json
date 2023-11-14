@@ -1,7 +1,7 @@
 {
     // 外观主题、图标、字体
-    "workbench.colorTheme": "Monokai Pro",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "fluent-icons",
     "editor.fontFamily": "'Monaspace Xenon', monospace",
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
