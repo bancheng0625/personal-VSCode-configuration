@@ -1,12 +1,11 @@
 # personal-VSCode-configuration
 配了一下自己觉得比较舒服的设置
 
-**注意：** C/C++部分还未完全配置完，makefile和cmake的路径需要根据自己的电脑路径进行配置
 ## 需要字体
  Github Monaspace
 [字体详情](https://monaspace.githubnext.com)
 
-个人选用Monaspace Xenon
+个人选用Monaspace Krypton
 
 ## 需要安装的软件
 1. VSCode
@@ -14,19 +13,19 @@
 3. cmake
 4. cmake-format
 ## 需要安装的插件
-1. Monokai Pro
-2. vscode-icons
+1. Github Theme
+2. Material Icon Theme
 3. Fluent-Icons
 4. C/C++
 5. CMake
 6. CMake Tools
 7. cmake-format
 8. Code Runner
-9.  Cpp Reference
+9. Cpp Reference
 10. Makefile Tools
 11. Markdown All in One
 12. Markdown Preview Github Styling
-13. Gitlens-Git supercharged
+13. Gitlens
 14. Error Lens
 15. Doxygen Documentation Generator
 16. Color Highlight
