@@ -24,7 +24,7 @@ rm -rf ~/.vscode
 1. VSCode
 2. mingw64
 3. cmake
-4. cmake-format
+4. cmake-format（这项采用pip安装，命令为`pip install cmake_format`
 ## 需要安装的插件
 1. Github Theme
 2. Material Icon Theme
