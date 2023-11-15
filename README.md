@@ -1,6 +1,19 @@
 # personal-VSCode-configuration
 配了一下自己觉得比较舒服的设置
 
+如果需要完整卸载后重新安装VSCode，可以采用如下方法
+```
+[windows]
+卸载VSCode后删除如下两项：
+C:\Users\自己电脑的用户名\.vscode
+C:\Users\自己电脑的用户名\AppData\Roaming\Code
+
+[mac]
+执行如下命令，注意\<space>表示转义，否则执行命令会报错：
+rm -rf ~/Library/Application\ Support/Code
+rm -rf ~/.vscode
+```
+
 ## 需要字体
  Github Monaspace
 [字体详情](https://monaspace.githubnext.com)
