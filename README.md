@@ -9,7 +9,7 @@ C:\Users\自己电脑的用户名\.vscode
 C:\Users\自己电脑的用户名\AppData\Roaming\Code
 
 [mac]
-执行如下命令，注意\<space>表示转义，否则执行命令会报错：
+卸载后执行如下命令，注意\<space>表示转义，否则执行命令会报错：
 rm -rf ~/Library/Application\ Support/Code
 rm -rf ~/.vscode
 ```
